@@ -13,8 +13,9 @@ int SubstitutionEncryption(char opt, char str[], char lett, int x);             
 int SubstitutionDecryption(char opt, char str[], char lett, int x, int j);      //defining the function for substitution decryption
 
 /*Main funtion (main body of the program)
- *input: opt- option selection to select a program, str[500]- message the user wants to encryt or decypt, lett- indiviual letters in the messageint main()
+ *input: opt- option selection to select a program, str[500]- message the user wants to encryt or decypt, lett- indiviual letters in the message
  *output: function returns 0 and gathers information ffrom the user for use in the rest of the program. */
+int main()
 {
     char opt, str[500], lett;                                                   //Character opt (user selected option), string str(for the users message) and character lett (indivdual letters of string str)
     int x=0, j;                                                                 //variables x and j used in multiple for loops
